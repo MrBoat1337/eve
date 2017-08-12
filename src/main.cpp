@@ -2894,12 +2894,12 @@ bool InitBlockIndex() {
 
         if (fTestNet)
         {
-            block.nTime    = 1325121401;
-            block.nNonce   = 386006532;
+            block.nTime    = 1502533462;
+            block.nNonce   = 0;
         }
 
 
-       if (true && (block.GetHash() != hashGenesisBlock)) {
+       if (false && (block.GetHash() != hashGenesisBlock)) {
                 block.nNonce = 0;
 
                 // This will figure out a valid hash and Nonce if you're
