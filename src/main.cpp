@@ -2899,7 +2899,7 @@ bool InitBlockIndex() {
         }
 
 
-       if (true && (block.GetHash() != hashGenesisBlock)) {
+       if (false && (block.GetHash() != hashGenesisBlock)) {
                 block.nNonce = 0;
 
                 // This will figure out a valid hash and Nonce if you're
